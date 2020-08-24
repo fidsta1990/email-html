@@ -14,11 +14,11 @@
   --white: #fdfdfd;
 }
 
-* {
+/* * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
+} */
 
 html {
   font-size: 62.5%;
@@ -26,7 +26,9 @@ html {
 
 body {
   font-family: var(--ff);
-  background: rgb(219, 219, 219);
+  /* font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+    Helvetica, Arial, "Lucida Grande", sans-serif; */
+  background: white;
 }
 
 h1,
@@ -72,10 +74,12 @@ a {
   color: var(--white);
   background: transparent;
   transition: var(--trans);
-  font-size: 1.4rem;
-  padding: 1rem 2.5rem;
-  margin: 1rem;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 0.8rem 2rem;
   cursor: pointer;
+  border: 2px solid white;
+  text-transform: uppercase;
 }
 
 .btn:hover {
@@ -83,21 +87,94 @@ a {
   background: var(--white);
 }
 
-.container {
-  width: 100%;
-  max-width: 600px;
-  margin: 0 auto;
-  background: green;
-  height: 617px;
-  border: none;
-}
 /* End of Global Styles */
 
 /* Header */
-.header {
-  width: 100%;
-  border: none;
+/* .header {
+  width: 900px;
+  margin: 0 auto;
+} */
+/* left section */
+.left {
+  background: rgb(97, 248, 252);
+  background: -moz-linear-gradient(
+    90deg,
+    rgb(97, 248, 252) 35%,
+    rgba(40, 161, 240, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(97, 248, 252, 1) 35%,
+    rgba(40, 161, 240, 1) 100%
+  );
+  background: linear-gradient(
+    90deg,
+    rgba(97, 248, 252, 1) 35%,
+    rgba(40, 161, 240, 1) 100%
+  );
+
+  color: var(--white);
+  padding: 3.25rem 3.875rem 9.3rem 6.375rem;
 }
+
+.left-info {
+  padding-right: 0.2rem;
+  padding-bottom: 1.2rem;
+}
+
+.left h2 {
+  margin: 2.375rem 0;
+  font-weight: 300;
+  line-height: 1;
+}
+
+.left h1 {
+  font-size: 5rem;
+  font-weight: 700;
+  margin: 0;
+  line-height: 1;
+}
+
+.left p {
+  font-size: 1.1rem;
+  line-height: 1.5;
+  font-style: italic;
+  padding: 1.5rem 0;
+}
+/* end of left section */
+
+/* right section */
+
+/* nav-links */
+
+.nav-container {
+  padding: 1rem;
+}
+
+.nav-container table tr {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.nav-container table tr td {
+  padding: 0 2.5rem;
+}
+.link {
+  color: #7d7d7d;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+/* end of nav-links */
+
+.right img {
+  height: 344px;
+  width: 210px;
+  padding-top: 49px;
+  margin-left: 53px;
+}
+
+/* end of right section */
 
 /* End of Header */
 
