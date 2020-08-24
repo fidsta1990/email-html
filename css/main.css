@@ -90,6 +90,14 @@ a {
 .learn-more {
   color: #51a7ef;
 }
+
+.section {
+  text-align: center;
+  max-width: 600px;
+  width: 100%;
+  min-height: 30vh;
+  padding: 3rem 0;
+}
 /* End of Global Styles */
 
 /* Header */
