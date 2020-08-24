@@ -97,6 +97,7 @@ a {
   width: 100%;
   min-height: 30vh;
   padding: 3rem 0;
+  color: #4e4e4e;
 }
 /* End of Global Styles */
 
@@ -257,6 +258,30 @@ a {
 /* End of Section 2 */
 
 /* Section 3 */
+
+.app-content {
+  display: flex;
+  width: 100%;
+}
+
+.app-left {
+  width: 50%;
+  text-align: left;
+  padding: 0 3rem 3rem 0;
+}
+
+.app-info-left p,
+.app-info-right p {
+  padding: 0;
+  font-size: 1.3rem;
+}
+
+.app-right {
+  width: 50%;
+  text-align: left;
+  padding: 0 0 0 0.9rem;
+}
+
 /* End of Section 3 */
 
 /* Section 4 */
