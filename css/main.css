@@ -14,12 +14,19 @@
   --white: #fdfdfd;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 html {
   font-size: 62.5%;
 }
 
 body {
   font-family: var(--ff);
+  background: rgb(219, 219, 219);
 }
 
 h1,
@@ -76,13 +83,22 @@ a {
   background: var(--white);
 }
 
-.section {
+.container {
   width: 100%;
   max-width: 600px;
+  margin: 0 auto;
+  background: green;
+  height: 617px;
+  border: none;
 }
 /* End of Global Styles */
 
 /* Header */
+.header {
+  width: 100%;
+  border: none;
+}
+
 /* End of Header */
 
 /* Section 2 */
