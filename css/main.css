@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap");
 /* FONTS */
 
 :root {
@@ -9,7 +10,7 @@
   --spacing: 0.3rem;
   --shadowLight: 0px 5px 10px rgba(138, 136, 136, 0.507);
   --shadowDark: 0px 5px 15px rgba(138, 136, 136, 0.507);
-  --ff: "Arial" . sans-serif;
+  --ff: "Open Sans", sans-serif;
   --white: #fdfdfd;
 }
 
@@ -18,7 +19,7 @@ html {
 }
 
 body {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: var(--ff);
 }
 
 h1,
@@ -80,3 +81,27 @@ a {
   max-width: 600px;
 }
 /* End of Global Styles */
+
+/* Header */
+/* End of Header */
+
+/* Section 2 */
+/* End of Section 2 */
+
+/* Section 3 */
+/* End of Section 3 */
+
+/* Section 4 */
+/* End of Section 4 */
+
+/* Section 5 */
+/* End of Section 5 */
+
+/* Section 6 */
+/* End of Section 6 */
+
+/* Section 7 */
+/* End of Section 7 */
+
+/* Footer */
+/* End of Footer */
