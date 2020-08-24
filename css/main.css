@@ -87,12 +87,15 @@ a {
   background: var(--white);
 }
 
+.learn-more {
+  color: #51a7ef;
+}
 /* End of Global Styles */
 
 /* Header */
-/* .header {
-  width: 900px;
-  margin: 0 auto;
+/* .container {
+  margin-bottom: 5rem;
+  padding-bottom: 5rem;
 } */
 /* left section */
 .left {
@@ -179,6 +182,70 @@ a {
 /* End of Header */
 
 /* Section 2 */
+
+.section-two {
+  overflow: hidden;
+  background: #fafafa;
+}
+
+.hero-title {
+  text-align: center;
+  color: #4e4e4e;
+}
+.hero-info {
+  width: 100%;
+  max-width: 600px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background: #fafafa;
+}
+
+.hero-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-content {
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: #4e4e4e;
+}
+
+.hero-content h6 {
+  font-size: 2rem;
+  padding-left: 2rem;
+  font-weight: 500;
+}
+.hero-text {
+  font-size: 1.5rem;
+  background: #fafafa;
+  font-weight: 400;
+}
+
+/* notify style */
+.notify {
+  width: 100%;
+  height: 15rem;
+  position: relative;
+  padding: 0 1rem 5rem 1rem;
+}
+/* end of notify style */
+
+/* share style */
+.share {
+  width: 100%;
+  height: 15rem;
+  padding: 0 1rem 5rem 1rem;
+}
+/* end of share style */
+
+.connect {
+  width: 100%;
+  height: 15rem;
+  padding: 0 1rem 5rem 1rem;
+}
+
 /* End of Section 2 */
 
 /* Section 3 */
